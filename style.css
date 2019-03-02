@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+}
+
+.right {
+  float: right;
+  float: left;
+}
+
+.left {
+  float: left;
+}
+
+nav {
+  height: 64px;
+  background-color: #000000;
+}
+
+nav .nav-wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+nav .nav-wrapper ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+nav .nav-wrapper ul li {
+  color: #ffffff;
+  line-height: 64px;
+  font-family: "Open Sans", sans-serif;
+  padding: 0 10px 0 10px;
+  display: inline-block;
+}
+
+nav .nav-wrapper .download-btn {
+  background-color: #6fd1bd;
+  line-height: 64px;
+  border: none;
+  height: 64px;
+  padding: 0 20px;
+  color: #ffffff;
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  nav .nav-wrapper .download-btn {
+    /* display: none; */
+    display: none;
+  }
+}
+
+nav .nav-wrapper .download-btn:hover {
+  background-color: salmon;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 80px 150px;
+}
+
+.container .titel {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 6em;
+  font-weight: 700;
+  text-shadow: 3px 6px  salmon;
+}
+
+.container .titel:hover {
+  text-shadow: -3px 6px  lightblue;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.container .underline {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+.container .text {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.container .add {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 200;
+  text-align: left;
+  padding-top: 19%;
+  font-size: 1.6em;
+}
+
+.container .add a {
+  text-decoration: none;
+  color: blue;
+}
+
+.container .id {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: right;
+  font-size: 30px;
+  padding-top: 0%;
+  max-width: 10px;
+}
+
+.container .data {
+  padding: 0px;
+}
+
+.data {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0px;
+  float: left;
+}
+
+.data .hl {
+  background: #6fd1bd;
+  max-width: 10px;
+  border-radius: 1.5px;
+  color: red;
+}
+
+.data .hl:hover {
+  background: salmon;
+  color: black;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+hr {
+  background: blue;
+  width: 100%;
+  max-width: 1250px;
+  height: 1px;
+}
+
+footer {
+  background: blue;
+  height: 50px;
+}
+/*# sourceMappingURL=style.css.map */

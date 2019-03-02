@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Game</title>
+        <script src="3march.js"></script>
+        <style>
+            table{
+                border-radius: 10px;
+            }
+            td{
+                padding: 50px;
+                color:darkblue;
+                background:#d3d3d3;
+                margin: 0px;
+            }
+            td:hover{
+                cursor:pointer;
+            }
+            body{
+                background: lightblue;
+                padding: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>Player 1 : X</h1>
+            <h1>Player 2 : O</h1>
+            <br><br><br><br>
+        <table border : "1px">
+            <tr>
+                <td id="1" onclick="game(1)"> </td>
+                <td id="2" onclick="game(2)"> </td>
+                <td id="3" onclick="game(3)"> </td>
+            </tr>
+            <tr>
+                <td id="4" onclick="game(4)"> </td>
+                <td id="5" onclick="game(5)"> </td>
+                <td id="6" onclick="game(6)"> </td>
+            </tr>
+            <tr>
+                <td id="7" onclick="game(7)"> </td>
+                <td id="8" onclick="game(8)"> </td>
+                <td id="9" onclick="game(9)"> </td>
+            </tr>
+        </table>
+    </center>
+    </body>
+</html>
